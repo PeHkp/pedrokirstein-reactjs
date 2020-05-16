@@ -136,4 +136,58 @@ body {
   line-height: 50px;
   text-align: center;
 }
-
+.projetos {
+  display: block;
+  margin: 30px 11%;
+}
+.projetoList {
+  text-align: center;
+  padding: 50px 5%;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0px 0px 16px -4px rgba(183, 183, 183, 1);
+}
+.conteudoProjeto {
+  display: flex;
+  margin-top: 30px;
+} 
+.textosProjetos {
+  width: 50%;
+  text-align: justify;
+  line-height: 25px;
+  margin-right: 20px;
+}
+.tec {
+  margin-top: 20px;
+  text-align: center;
+}
+.tec h1 {
+  margin-bottom: 20px;
+}
+.projetoList {
+  margin-top: 70px;
+}
+.botaoProjetos {
+  margin-left: 20px;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ProjetoBotao a{
+  padding: 20px 30px ;
+  margin-top: 20px;
+  display: block;
+  border: 1px solid #303030;
+  border-radius: 15px;
+  text-decoration: none;
+  color: white;
+  background-image: url("../../img/carbon.svg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.ProjetoBotao a:hover {
+  background-image:none;
+  background-color: white;
+  color: #303030;
+}

@@ -12,10 +12,10 @@ export default function Header() {
       </div>
       <div className="headerigth">
         <Link className="headerlinks" to="/">
-          Home
+          Português
         </Link>
-        <Link className="headerlinks" to="/contato">
-          Contact
+        <Link className="headerlinks" to="/ingles">
+          English
         </Link>
       </div>
     </div>

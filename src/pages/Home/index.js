@@ -21,7 +21,7 @@ function Home() {
           <h1>Pedro Kirstein</h1>
           <p>Developer Web - Mobile - Software Engineer</p>
           <a className="BotaoBanner" href="#projetos">
-            About Me
+          What do I do
           </a>
         </div>
       </div>
@@ -98,18 +98,7 @@ function Home() {
         <h1>My projects</h1>
         <p>here i will show a little of what i know</p>
       </div>
-      <div className="projetos">
-        <div className="ProjetosBox">
-          <h1>{Pedro.Projetos[0].Name}</h1>
-          <p>Front-End : {Pedro.Projetos[0].FrontEnd}</p>
-          <p>Back-End : {Pedro.Projetos[0].BackEnd}</p>
-          <p>Banco Dados : {Pedro.Projetos[0].BancoDados}</p>
-          <div className="botaoProj">
-            <a href={Pedro.Projetos[0].VerProjeto}>Ver Projeto</a>
-            <a href={Pedro.Projetos[0].GitHub}>GitHub</a>
-          </div>
-        </div>
-      </div>
+      
       <Footer></Footer>
     </div>
   );
