@@ -1,9 +1,18 @@
 import React from "react";
-import { FaLaptopCode, FaRegFileCode, FaDraftingCompass } from "react-icons/fa";
+import {
+  FaLaptopCode,
+  FaRegFileCode,
+  FaDraftingCompass,
+  FaGithub,
+  FaYoutube,
+  FaLinkedin,
+  FaFileAlt
+} from "react-icons/fa";
 import "./style.css";
 
 // importando json de informacoes
 import Pedro from "../../assets/Projetos.json";
+import Curriculo from "../../assets/PedroKirsteinPortugues.pdf"
 
 // importando componentes
 import Header from "../../components/Header";
@@ -20,6 +29,11 @@ function Home() {
         <div className="textos">
           <h1>Pedro Kirstein</h1>
           <p>Desenvolvedor Web - Mobile - Engenheiro de Software</p>
+          <div className="icones">
+            <a target="blank" href="https://github.com/PeHkp"><FaGithub className="icon" color="white" size="30"></FaGithub></a>
+            <a target="blank" href="https://www.linkedin.com/in/pedro-kirstein/"><FaLinkedin className="icon" color="white" size="30"></FaLinkedin></a>
+            <a target="blank" href="https://www.youtube.com/channel/UCcnNKa-3hwmdtZkRP5Iwn-Q?view_as=subscriber"><FaYoutube className="icon" color="white" size="30"></FaYoutube></a>
+          </div>
           <a className="BotaoBanner" href="#projetos">
             O que Faço
           </a>
@@ -94,7 +108,7 @@ function Home() {
           <p>Albert Einstein</p>
         </div>
       </div>
-      <div className="titulos">
+      <div className="titulos" id="projetos">
         <h1>Meus Projetos</h1>
         <p>Aqui vou mostrar um pouco do que sei</p>
       </div>
@@ -130,11 +144,11 @@ function Home() {
           <div className="conteudoProjeto">
             <div className="textosProjetos">
               <p>
-                <strong>Descrição</strong> : Trabalho da matéria de Experiencia
-                Criativa, aonde nos Desenvolvemos o projeto para uma empresa de
-                moveis, aonde o Sistema devera controlar toda a operação interna
-                feita pela empresa, a metodologia para o desenvolvimento foi
-                usado o SCRUM e a arquitetura MVC.
+                <strong>Descrição</strong> : E um site aonde mostramos algumas
+                informações do Covid-19 de forma que as pessoas consigam ter
+                essa informação rápida e agradável aos olhos. No site usei uma
+                API para capturar os dados sobre o covid no Brasil, Dados de
+                Mortos e contaminados, alem de mostra as informação de cada dia.
               </p>
               <div className="tec">
                 <h1>Tecnologias</h1>
@@ -156,11 +170,13 @@ function Home() {
           <div className="conteudoProjeto">
             <div className="textosProjetos">
               <p>
-                <strong>Descrição</strong> : Trabalho da matéria de Experiencia
-                Criativa, aonde nos Desenvolvemos o projeto para uma empresa de
-                moveis, aonde o Sistema devera controlar toda a operação interna
-                feita pela empresa, a metodologia para o desenvolvimento foi
-                usado o SCRUM e a arquitetura MVC.
+                <strong>Descrição</strong> : Uma rede Social aonde as pessoa
+                podem postar o que aprenderam, a idéia surgiu quando vi a que
+                seria legal que os Recrutadores pudessem ver o que os candidatos
+                estavam aprendendo diariamente, tecnologias, metodologias. Assim
+                sabendo exatamente o que os candidatos estão aprendendo e se
+                eles já resolveu por algum problema que pode vir a acontecer ao
+                desenvolver algum projeto.
               </p>
               <div className="tec">
                 <h1>Tecnologias</h1>
@@ -182,11 +198,12 @@ function Home() {
           <div className="conteudoProjeto">
             <div className="textosProjetos">
               <p>
-                <strong>Descrição</strong> : Trabalho da matéria de Experiencia
-                Criativa, aonde nos Desenvolvemos o projeto para uma empresa de
-                moveis, aonde o Sistema devera controlar toda a operação interna
-                feita pela empresa, a metodologia para o desenvolvimento foi
-                usado o SCRUM e a arquitetura MVC.
+                <strong>Descrição</strong> : Loja virtual, O usuário consegui
+                fazer login, cadastro e colocar as coisas no carrinho apenas se
+                logado tem a função recuperar senha, e cupom de desconto, entre
+                outras, apenas não esta disponível pagamento do produto porem
+                ele faz a encomenda e tudo e gerenciado pelo app de gerencia da
+                loja virtual.
               </p>
               <div className="tec">
                 <h1>Tecnologias</h1>
@@ -208,11 +225,10 @@ function Home() {
           <div className="conteudoProjeto">
             <div className="textosProjetos">
               <p>
-                <strong>Descrição</strong> : Trabalho da matéria de Experiencia
-                Criativa, aonde nos Desenvolvemos o projeto para uma empresa de
-                moveis, aonde o Sistema devera controlar toda a operação interna
-                feita pela empresa, a metodologia para o desenvolvimento foi
-                usado o SCRUM e a arquitetura MVC.
+                <strong>Descrição</strong> : Gerente de loja, Um app Usado para
+                o gerenciamento de loja Virtual, aonde o "Dono" da Loja pode
+                adicionar Produtos, categorias, ver seus pedidos e clientes
+                cadastrados.
               </p>
               <div className="tec">
                 <h1>Tecnologias</h1>
@@ -234,11 +250,12 @@ function Home() {
           <div className="conteudoProjeto">
             <div className="textosProjetos">
               <p>
-                <strong>Descrição</strong> : Trabalho da matéria de Experiencia
-                Criativa, aonde nos Desenvolvemos o projeto para uma empresa de
-                moveis, aonde o Sistema devera controlar toda a operação interna
-                feita pela empresa, a metodologia para o desenvolvimento foi
-                usado o SCRUM e a arquitetura MVC.
+                <strong>Descrição</strong> : Kirs-Chat, A idéia e de fazer um
+                App de mensagem como o WhatsApp Para treinar alguns fundamentos,
+                O projeto já esta funcional E o usuário pode, mandar qualquer
+                tipo de mensagens, vídeos de qualquer tamanho, imagens, mudar
+                foto de Perfil, excluir conversas, e o cadastro e login e feito
+                por email.
               </p>
               <div className="tec">
                 <h1>Tecnologias</h1>
@@ -255,6 +272,14 @@ function Home() {
             </div>
           </div>
         </div>
+      </div>
+      <div className="contato">
+        <div className="titulosContato">
+          <h1>Contato</h1>
+          <p>Entre em Contato comigo por esse Email</p>
+        </div>
+        <p className="email">pedro.kirstein@outlook.com</p>
+        <a target="blank" href={Curriculo}><FaFileAlt color="white" size="30"></FaFileAlt></a>
       </div>
       <Footer></Footer>
     </div>

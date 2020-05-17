@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap");
 
 .cabecario {
-  padding: 0 11%;
+  padding:10px 11%;
   height: 50px;
-  background-color: #24292e;
+  background-color: transparent;
   display: flex;
   align-items: center;
   font-family: "Montserrat", sans-serif;

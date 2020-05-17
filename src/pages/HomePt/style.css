@@ -1,8 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   font-family: "Montserrat", sans-serif;
+}
+html {
+  scroll-behavior: smooth;
 }
 body {
   background: white;
@@ -12,6 +16,7 @@ body {
   background-image: url("../../img/carbon.svg");
   background-attachment: fixed;
   background-repeat: no-repeat;
+  margin-top: -70px;
   width: 100%;
   height: 900px;
   display: flex;
@@ -28,11 +33,17 @@ body {
 .textos p {
   font-size: 22px;
   letter-spacing: 2px;
-  margin-bottom: 50px;
+  margin-bottom: 25px;
 }
 .textos h1 {
   font-size: 60px;
   letter-spacing: 3px;
+}
+.icones {
+  margin-bottom: 50px;
+}
+.icon {
+  margin: 0px 20px 0 20px;
 }
 .BotaoBanner {
   margin-top: 50px;
@@ -150,7 +161,7 @@ body {
 .conteudoProjeto {
   display: flex;
   margin-top: 30px;
-} 
+}
 .textosProjetos {
   width: 50%;
   text-align: justify;
@@ -174,8 +185,8 @@ body {
   align-items: center;
   justify-content: center;
 }
-.ProjetoBotao a{
-  padding: 20px 30px ;
+.ProjetoBotao a {
+  padding: 20px 30px;
   margin-top: 20px;
   display: block;
   border: 1px solid #303030;
@@ -187,7 +198,68 @@ body {
   background-repeat: no-repeat;
 }
 .ProjetoBotao a:hover {
-  background-image:none;
+  background-image: none;
   background-color: white;
   color: #303030;
+}
+.contato {
+  margin-top: 70px;
+  color: white;
+  background-image: url("../../img/carbon.svg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  padding: 100px 30px;
+  display: block;
+  text-align: center;
+  border-bottom: 1px solid white;
+
+  border-bottom-left-radius: 5%;
+  border-bottom-right-radius: 5%;
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
+}
+.titulosContato {
+  margin-bottom: 20px;
+}
+.titulosContato h1 {
+  margin-bottom: 5px;
+}
+.email {
+  margin-bottom: 20px;
+}
+@media (max-width: 593px) {
+  .skils {
+    display: block;
+    margin: 0 20px 0 20px;
+  }
+  .boxSkils {
+    width: auto;
+  }
+  .backendSkils {
+    margin: 20px 0 20px 0;
+  }
+  .sobremim {
+    display: block;
+    margin: 0 20px 0 20px;
+  }
+  .TextPerfil {
+    width: auto;
+  }
+  .imagemPerfil {
+    width: auto;
+  }
+  .projetos {
+    margin: 30px 20px;
+  }
+  .botaoProjetos {
+    width: auto;
+    display: block;
+  }
+  .conteudoProjeto {
+    display: block;
+  }
+  .textosProjetos {
+    width: auto;
+    margin: 0;
+  }
 }
