@@ -6,13 +6,13 @@ import {
   FaGithub,
   FaYoutube,
   FaLinkedin,
-  FaFileAlt
+  FaFileAlt,
 } from "react-icons/fa";
 import "./style.css";
 
 // importando json de informacoes
 import Pedro from "../../assets/Projetos.json";
-import Curriculo from "../../assets/PedroKirsteinPortugues.pdf"
+import Curriculo from "../../assets/PedroKirsteinPortugues.pdf";
 
 // importando componentes
 import Header from "../../components/Header";
@@ -30,9 +30,21 @@ function Home() {
           <h1>Pedro Kirstein</h1>
           <p>Desenvolvedor Web - Mobile - Engenheiro de Software</p>
           <div className="icones">
-            <a target="blank" href="https://github.com/PeHkp"><FaGithub className="icon" color="white" size="30"></FaGithub></a>
-            <a target="blank" href="https://www.linkedin.com/in/pedro-kirstein/"><FaLinkedin className="icon" color="white" size="30"></FaLinkedin></a>
-            <a target="blank" href="https://www.youtube.com/channel/UCcnNKa-3hwmdtZkRP5Iwn-Q?view_as=subscriber"><FaYoutube className="icon" color="white" size="30"></FaYoutube></a>
+            <a target="blank" href="https://github.com/PeHkp">
+              <FaGithub className="icon" color="white" size="30"></FaGithub>
+            </a>
+            <a
+              target="blank"
+              href="https://www.linkedin.com/in/pedro-kirstein/"
+            >
+              <FaLinkedin className="icon" color="white" size="30"></FaLinkedin>
+            </a>
+            <a
+              target="blank"
+              href="https://www.youtube.com/channel/UCcnNKa-3hwmdtZkRP5Iwn-Q?view_as=subscriber"
+            >
+              <FaYoutube className="icon" color="white" size="30"></FaYoutube>
+            </a>
           </div>
           <a className="BotaoBanner" href="#projetos">
             O que Faço
@@ -136,6 +148,36 @@ function Home() {
               <div className="ProjetoBotao">
                 <a href={Pedro.Projetos[0].VerProjeto}>Ver Projeto</a>
                 <a href={Pedro.Projetos[0].GitHub}>GitHub</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="projetoList">
+          <h1>{Pedro.Projetos[6].Name}</h1>
+          <div className="conteudoProjeto">
+            <div className="textosProjetos">
+              <p>
+                <strong>Description</strong> : Esse projeto foi desenvolvido durante o primeiro 
+                bootcamp Next Level Week da rocketseat, e uma plataforma onde o usuário adiciona 
+                pontos de coletas de material reciclável e quais materiais esse ponto coleta. 
+                Tem integração com a API do IBGE e uma API de mapa gratuita. além de ser desenvolvida usando a stack Javascript.
+                durante o primeiro bootcamp Next Level Week da rocketseat, e uma
+                plataforma onde o usuário adiciona pontos de coletas de material
+                reciclável e quais materiais esse ponto coleta. tem integração
+                com a API do IBGE e uma API de mapa gratuita. além de ser
+                desenvolvida usando a stack Javascript.
+              </p>
+              <div className="tec">
+                <h1>Tecnologias</h1>
+                <p>Front-End : {Pedro.Projetos[6].FrontEnd}</p>
+                <p>Back-End : {Pedro.Projetos[6].BackEnd}</p>
+                <p>Data-Base : {Pedro.Projetos[6].BancoDados}</p>
+              </div>
+            </div>
+            <div className="botaoProjetos">
+              <div className="ProjetoBotao">
+                <a href={Pedro.Projetos[6].VerProjeto}>Ver Projeto</a>
+                <a href={Pedro.Projetos[6].GitHub}>GitHub</a>
               </div>
             </div>
           </div>
@@ -280,7 +322,9 @@ function Home() {
           <p>Entre em Contato comigo por esse Email</p>
         </div>
         <p className="email">pedro.kirstein@outlook.com</p>
-        <a target="blank" href={Curriculo}><FaFileAlt color="white" size="30"></FaFileAlt></a>
+        <a target="blank" href={Curriculo}>
+          <FaFileAlt color="white" size="30"></FaFileAlt>
+        </a>
       </div>
       <Footer></Footer>
     </div>

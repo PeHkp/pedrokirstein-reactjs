@@ -153,6 +153,31 @@ function Home() {
           </div>
         </div>
         <div className="projetoList">
+          <h1>{Pedro.Projetos[6].Name}</h1>
+          <div className="conteudoProjeto">
+            <div className="textosProjetos">
+              <p>
+                <strong>Description</strong> : This project was developed during the first
+                 rocketseat Next Level Week bootcamp, and a platform where the user adds
+                 collection points of recyclable material and what materials this point collects.
+                 It has integration with the IBGE API and a free map API. besides being developed using the Javascript stack.
+              </p>
+              <div className="tec">
+                <h1>Tecnologias</h1>
+                <p>Front-End : {Pedro.Projetos[6].FrontEnd}</p>
+                <p>Back-End : {Pedro.Projetos[6].BackEnd}</p>
+                <p>Data-Base : {Pedro.Projetos[6].BancoDados}</p>
+              </div>
+            </div>
+            <div className="botaoProjetos">
+              <div className="ProjetoBotao">
+                <a href={Pedro.Projetos[6].VerProjeto}>Ver Projeto</a>
+                <a href={Pedro.Projetos[6].GitHub}>GitHub</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="projetoList">
           <h1>{Pedro.Projetos[1].Name}</h1>
           <div className="conteudoProjeto">
             <div className="textosProjetos">
@@ -284,7 +309,6 @@ function Home() {
           </div>
         </div>
       </div>
-
       <div className="contato">
         <div className="titulosContato">
           <h1>Contact</h1>
