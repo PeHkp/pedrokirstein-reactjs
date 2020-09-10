@@ -49,7 +49,8 @@ function Home() {
             <FaLaptopCode size="50" color="#303030"></FaLaptopCode>
             <h1>Front-End</h1>
             <li>Flutter - Intermediário</li>
-            <li>React.Js - Intermediário</li>
+            <li>React.Js - Avançado</li>
+            <li>Angular.Js - Intermediário</li>
             <li>JavaScript - Intermediário</li>
             <li>HTML - Intermediário</li>
             <li>CSS - Intermediário</li>
@@ -59,9 +60,9 @@ function Home() {
           <ul>
             <FaRegFileCode size="50" color="#303030"></FaRegFileCode>
             <h1>Back-End</h1>
-            <li>Node.Js - Intermediário</li>
+            <li>Node.Js - Avançado</li>
             <li>Dart - básico</li>
-            <li>Python - básico</li>
+            <li>Python - Intermediário</li>
             <li>Java - básico</li>
             <li>PHP - básico</li>
           </ul>
@@ -75,8 +76,8 @@ function Home() {
             <li>WordPress - Intermediário</li>
             <li>UML - Intermediário</li>
             <li>BPMN - Intermediário</li>
-            <li>MySQL - básico</li>
-            <li>SQLite - básico</li>
+            <li>MySQL - Intermediário</li>
+            <li>SQLite - Intermediário</li>
           </ul>
         </div>
       </div>
