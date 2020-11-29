@@ -1,0 +1,27 @@
+[
+  {
+    "escola": "Polyglot Idiomas",
+    "curso": "Inglês",
+    "inicio": "Fevereiro 2014",
+    "fim": "Julho 2017"
+  },
+  {
+    "escola": "Colégio FAPI",
+    "curso": "Ensino Médio",
+    "inicio": "Fevereiro 2016",
+    "fim": "Dezembro 2018"
+  },
+  {
+    "escola": "PUCPR",
+    "curso": "Engenharia de Software",
+    "inicio": "Fevereiro 2019",
+    "fim": "Cursando"
+  },
+  {
+    "escola": "Rocketseat",
+    "curso": "GoStack",
+    "inicio": "Outubro 2020",
+    "fim": "Janeiro 2021",
+    "techs": "Node.js, React.js, React-Native"
+  }
+]
