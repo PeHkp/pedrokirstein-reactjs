@@ -1,0 +1,15 @@
+{
+  "Nome": "Pedro Kirstein",
+  "Email": "pedro.kirstein@outlook.com",
+  "Vaga": "Programador Junior",
+  "DataNascimento": "01/09/2001",
+  "LinkedIn": "https://www.linkedin.com/in/pedro-kirstein/",
+  "Idade": "18 Anos",
+  "Ingles": "Intermediario",
+  "Tecnologias": {
+    "Node.js": "Intermediario / Avançado",
+    "React.js": "Intermediario",
+    "TypeScript": "Intermediario",
+    "HTML / CSS": "Intermediario / Avançado"
+  }
+}
