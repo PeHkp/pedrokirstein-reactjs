@@ -1,4 +1,5 @@
 import React from "react";
+import {FiMenu} from 'react-icons/fi'
 
 import Sidebar from "./Sidebar"
 
@@ -11,7 +12,7 @@ const Topbar: React.FC = () => {
     <Container className="sz-navbar">
       <div className="sz-navbar-inner sz-navbar-left">
         <input type="checkbox" id="sz-navbar-check" />
-        <label htmlFor="sz-navbar-check" style={{color: '#20e080'}} className="sz-navbar-hamburger">☰</label>
+        <label htmlFor="sz-navbar-check" className="sz-navbar-hamburger"><FiMenu size={20} color={'#20e080'}/></label>
         <div className="sz-navbar-items">
           <Sidebar/>
         </div>
